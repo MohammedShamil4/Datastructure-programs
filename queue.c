@@ -47,6 +47,7 @@ int search(int);
    }
  while(1);
 }
+//fn for inseration operation
  void insert(int x)
 {
   int t;
@@ -59,6 +60,7 @@ return;
     rear=t;
     stk[rear]=x;
 }
+//deletion operation
  int del()
   {
   int r;
@@ -74,6 +76,7 @@ stat=1;
 return stk[front];
 }
 }
+//function for search operation
 int search(int item)
 {
 int f,r;
